@@ -1,0 +1,19 @@
+// RecursiveMath.java
+
+public class RecursiveMath {
+  
+  public static void main ( String[] args ) {
+    
+    factorial(10);
+    
+  } // end main method
+  
+   public static void inception( int n ) {
+    
+    if( n > 0 ) {
+      System.out.println( "Welcome to the dream world" );
+      inception( n - 1 ); 
+    } else {
+      System.out.println( "Wake up!" );
+    }
+} // end RecursiveMath
